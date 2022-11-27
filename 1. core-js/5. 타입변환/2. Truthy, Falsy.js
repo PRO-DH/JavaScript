@@ -1,3 +1,4 @@
+// 0, '', null, undefined, NAN -> 거짓판정
 
 // Falsy
 if (undefined) console.log('ok1');

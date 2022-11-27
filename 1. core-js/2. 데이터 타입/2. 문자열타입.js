@@ -2,39 +2,39 @@
 
 var greeting;
 greeting = 'hello';
-greeting = "ì•ˆë…•~~";
-greeting = `ì˜ê°€!`;
+greeting = "¾È³ç~~";
+greeting = `Àß°¡!`;
 
 console.log(typeof greeting);
 
-var str = 'ê·¸ëŠ” ë‚˜ì—ê²Œ "ì•ˆë…•"ì´ë¼ê³  ë§í–ˆë‹¤.';
+var str = '±×´Â ³ª¿¡°Ô "¾È³ç"ÀÌ¶ó°í ¸»Çß´Ù.';
 console.log(str);
 
 var str2 = "Let's Go!";
 console.log(str2);
 
-var str3 = "ê·¸ëŠ” ë‚˜ì—ê²Œ \"ì•ˆë…•\"ì´ë¼ê³  ë§í–ˆë‹¤.";
+var str3 = "±×´Â ³ª¿¡°Ô \"¾È³ç\"ÀÌ¶ó°í ¸»Çß´Ù.";
 console.log(str3);
 
 var str4 = 'Let\'s Go! \"together\"';
 
-//íƒˆì¶œ ë¬¸ì
-var str5 = 'ë©ë©ì´\n\n\nì•¼ì˜¹ì´';
+//Å»Ãâ ¹®ÀÚ
+var str5 = '¸Û¸ÛÀÌ\n\n\n¾ß¿ËÀÌ';
 console.log(str5);
 
-var str6 = 'ë©ë©ì´\t\t\tì•¼ì˜¹ì´';
+var str6 = '¸Û¸ÛÀÌ\t\t\t¾ß¿ËÀÌ';
 console.log(str6);
 
 var filePath = 'D:\\temp\\new.png';
 console.log(filePath);
 
-//í…œí”Œë¦¿ ë¦¬í„°ëŸ´ (ES6+ ë¬¸ë²•)
-// var tag = '<ul>\n\t<li><a href="#">ë„¤ì´ë²„ë§í¬</a></li>\n</ul>';
+//ÅÛÇÃ¸´ ¸®ÅÍ·² (ES6+ ¹®¹ı)
+// var tag = '<ul>\n\t<li><a href="#">³×ÀÌ¹ö¸µÅ©</a></li>\n</ul>';
 
 var tag = `
 <ul>
     <li>
-        <a href="#">ë„¤ì´ë²„ë§í¬</a>
+        <a href="#">³×ÀÌ¹ö¸µÅ©</a>
     </li>
 </ul>`;
 
@@ -42,7 +42,7 @@ console.log(tag);
 
 var month = 3;
 var day = 1;
-var anniversary = 'ì‚¼ì¼ì ˆ';
+var anniversary = '»ïÀÏÀı';
 
-console.log(month + 'ì›” ' + day + 'ì¼ì€ ' + anniversary + 'ì…ë‹ˆë‹¤.');
-console.log(`${month}ì›” ${day}ì¼ì€ ${anniversary}ì…ë‹ˆë‹¤.`);
+console.log(month + '¿ù ' + day + 'ÀÏÀº ' + anniversary + 'ÀÔ´Ï´Ù.');
+console.log(`${month}¿ù ${day}ÀÏÀº ${anniversary}ÀÔ´Ï´Ù.`);
