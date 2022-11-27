@@ -26,6 +26,22 @@
     </div>
 
     <script>
+
+
+        // const $ul = document.getElementById('list1');    //속도가 queryselector보다 조금 빠르다.
+        const $ul = document.querySelector('#list1');   // querySelector로 가져올때는 #으로 잡아야한다.
+
+
+
+
+
+
+
+
+
+
+
+
         //1. id="list1"인 요소에 <li> 요소중  홀수번째 요소만 선택후 배경색상 yellow 적용   
         const $oddElems = document.querySelectorAll('#list1 > li:nth-child(odd)'); 
         console.log($oddElems); 

@@ -1,3 +1,5 @@
+// 객체 반복문 for in    -> 참조할때 phone.data 같이 .으로 참조하지 말고 대괄호 phone[data]와 같이 참조할 것.
+// 배열 반복문 for of
 
 var phone = {
     company: '삼성',
